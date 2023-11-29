@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'YOUR_USERNAME_HERE',
-  password: 'YOUR_PASSWORD_HERE',
-  database: 'YOUR_DATABASE_NAME_HERE'
+  user: 'root',
+  password: 'root',
+  database: 'blogmee'
 });
 
 connection.connect((err) => {
@@ -15,13 +15,7 @@ connection.connect((err) => {
   }
 });
 
-// Your Database Queries Here!!
 
-
-
-
-
-// Don't forget to export your functions!
 module.exports = {
-
+  connection 
 };

@@ -1,4 +1,4 @@
-const posts = [
+const dataposts = [
     {
         id: 1,
         title: "The Art of Mindfulness",
@@ -9,13 +9,13 @@ const posts = [
         id: 2,
         title: "Healthy Eating Habits: A Beginner's Guide",
         desc: "Tips on creating and maintaining healthy eating habits for a balanced lifestyle.",
-        img: "healthy_eating_guide.jpg"
+        img: "https://food-guide.canada.ca/sites/default/files/styles/square_400_x_400/public/2020-12/CFGPlate-crop400x400.jpg"
     },
     {
         id: 3,
         title: "Travel Diaries: Discovering Hidden Gems in Southeast Asia",
         desc: "A journey through lesser-known destinations in Southeast Asia and the experiences encountered along the way.",
-        img: "travel_diaries.jpg"
+        img: "https://fullsuitcase.com/wp-content/uploads/2023/05/Family-behind-the-Full-Suitcase-travel-blog.jpg.webp"
     },
     {
         id: 4,
@@ -61,4 +61,4 @@ const posts = [
     }
 ]
 
-export default posts;
+export default dataposts;

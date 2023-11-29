@@ -18,7 +18,6 @@ const Layout = () => {
       <Footer />
     </div>
   )
-
 }
 
 const router = createBrowserRouter([
@@ -31,11 +30,11 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/single",
+        path: "/post/:id",
         element: <Single />,
       },
       {
-        path: "/post/:id",
+        path: "/write",
         element: <Write />,
       }
     ]
